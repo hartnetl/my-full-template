@@ -1,0 +1,52 @@
+/* */ /* This makes a comment in CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    list-style: none;   /* This removes the bulletpoints */ 
+    background-color: #4a4a4f;
+    text-align: center; 
+    padding: 0;
+    margin: 0;       
+}
+
+nav li {
+    font-size: 1.2em;           /* This is a responsive sizing option */
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;      /* This makes a horizontal view*/
+    margin: 2.5%;               /* This puts some space between the items in nav bar*/
+}
+
+nav a {
+    text-decoration: none;      /* removes underline from link*/
+    color: #fff;             
+    display: block;             /* GO LOOK AT THIS SECTION. It looks the same without this line, 
+                                    but that will probably change later on*/
+}
+
+nav a:hover {                   
+    background-color: #fff;
+    color: #4a4a4f
+}
+
+.card {
+    float: left;            /* This makes the images appear in a single row */   
+    width: 20%;
+    margin-left: 10%;       /* Adds space between the cards*/ 
+}
+
+.card a{                    /* This is targetting the anchor element inside the cards */
+    text-align: center;
+    }
+
+    img {
+        width: 100%;        /*This is a relative width to the parent containter, which in this case
+                            is the card. The card is taking up 20%, so this is just all of that 20% */
+        height: 180px;      /* Not a necessary step, but it will make all the images the same height */  
+    }
+
+    h2 {text-align: center;}
